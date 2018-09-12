@@ -1,6 +1,6 @@
 import numpy as np
 
-def garch_generator(n,a0,a1,a2,b1,b2,seed=53):
+def GARCH_generator(n,a0,a1,a2,b1,b2,seed=53):
     '''Generates epsilon values for GARCH model up to 2nd order(GARCH(2,2))
     Set a2=0 and b2=0 to simulate a GARCH(1,1) model
     ---------------------------
