@@ -35,6 +35,6 @@ def tsplot(y, lags=None, figsize=(10, 8), style='bmh',prefix='_'):
         scs.probplot(y, sparams=(y.mean(), y.std()), plot=pp_ax)
 
         plt.tight_layout()
-        plt.savefig(prefix,format='png')
+        plt.savefig(prefix+'.png',format='png')
         plt.close()
     return
